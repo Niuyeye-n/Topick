@@ -1,0 +1,407 @@
+{
+  "status": "verified",
+  "rows": [
+    {
+      "run_id": "run01",
+      "tag": "llama_obqa",
+      "status": "verified",
+      "source_sha256": "20f7a89ab06e9eaa54ef27f494aac4ee2367e512a52c6be3baf2a0a5dbf7906a",
+      "n": 500,
+      "correct": 445,
+      "accuracy": 89.0,
+      "f1_weighted": 89.01813559778134,
+      "f1_macro": 88.79249736246861,
+      "confusion_matrix": [
+        [
+          125,
+          6,
+          4,
+          3
+        ],
+        [
+          4,
+          112,
+          5,
+          5
+        ],
+        [
+          2,
+          5,
+          120,
+          5
+        ],
+        [
+          4,
+          10,
+          2,
+          88
+        ]
+      ],
+      "gold_distribution": {
+        "A": 138,
+        "B": 126,
+        "C": 132,
+        "D": 104
+      },
+      "pred_distribution": {
+        "A": 135,
+        "B": 133,
+        "C": 131,
+        "D": 101
+      },
+      "selected_lambda": 0.1
+    },
+    {
+      "run_id": "run01",
+      "tag": "qwen_obqa",
+      "status": "verified",
+      "source_sha256": "9c6784a580fec9151ef66fc43f64e24cf63b5c48bb0cc971ba0b152949a6460d",
+      "n": 500,
+      "correct": 450,
+      "accuracy": 90.0,
+      "f1_weighted": 90.13013148669617,
+      "f1_macro": 89.8804508011058,
+      "confusion_matrix": [
+        [
+          121,
+          7,
+          2,
+          8
+        ],
+        [
+          3,
+          111,
+          1,
+          11
+        ],
+        [
+          3,
+          1,
+          120,
+          8
+        ],
+        [
+          3,
+          3,
+          0,
+          98
+        ]
+      ],
+      "gold_distribution": {
+        "A": 138,
+        "B": 126,
+        "C": 132,
+        "D": 104
+      },
+      "pred_distribution": {
+        "A": 130,
+        "B": 122,
+        "C": 123,
+        "D": 125
+      },
+      "selected_lambda": 1.0
+    },
+    {
+      "run_id": "run01",
+      "tag": "llama_arc",
+      "status": "verified",
+      "source_sha256": "6595f24cafe93f4449a970903ba5a45b43035e011915cb5ee92afd253d07a024",
+      "n": 500,
+      "correct": 414,
+      "accuracy": 82.8,
+      "f1_weighted": 82.80349784986797,
+      "f1_macro": 82.87676079107614,
+      "confusion_matrix": [
+        [
+          102,
+          8,
+          3,
+          2
+        ],
+        [
+          12,
+          105,
+          4,
+          9
+        ],
+        [
+          6,
+          7,
+          105,
+          8
+        ],
+        [
+          6,
+          14,
+          7,
+          102
+        ]
+      ],
+      "gold_distribution": {
+        "A": 115,
+        "B": 130,
+        "C": 126,
+        "D": 129
+      },
+      "pred_distribution": {
+        "A": 126,
+        "B": 134,
+        "C": 119,
+        "D": 121
+      },
+      "selected_lambda": 1.0
+    },
+    {
+      "run_id": "run01",
+      "tag": "qwen_arc",
+      "status": "verified",
+      "source_sha256": "a462dd87314761ac180911ebdabc570ba37498df9fa6d1397db4695a78efdf25",
+      "n": 500,
+      "correct": 435,
+      "accuracy": 87.0,
+      "f1_weighted": 87.02444317918412,
+      "f1_macro": 87.09037585570188,
+      "confusion_matrix": [
+        [
+          102,
+          6,
+          1,
+          6
+        ],
+        [
+          7,
+          113,
+          3,
+          7
+        ],
+        [
+          2,
+          7,
+          111,
+          6
+        ],
+        [
+          4,
+          10,
+          6,
+          109
+        ]
+      ],
+      "gold_distribution": {
+        "A": 115,
+        "B": 130,
+        "C": 126,
+        "D": 129
+      },
+      "pred_distribution": {
+        "A": 115,
+        "B": 136,
+        "C": 121,
+        "D": 128
+      },
+      "selected_lambda": 0.1
+    },
+    {
+      "run_id": "run02",
+      "tag": "llama_obqa",
+      "status": "verified",
+      "source_sha256": "f1c12b3914322521449def2b49fa9179476f2312fc444cc0f397cf0570497fc9",
+      "n": 500,
+      "correct": 449,
+      "accuracy": 89.8,
+      "f1_weighted": 89.80199901147783,
+      "f1_macro": 89.63372649753698,
+      "confusion_matrix": [
+        [
+          127,
+          5,
+          2,
+          4
+        ],
+        [
+          6,
+          110,
+          6,
+          4
+        ],
+        [
+          2,
+          4,
+          121,
+          5
+        ],
+        [
+          5,
+          7,
+          1,
+          91
+        ]
+      ],
+      "gold_distribution": {
+        "A": 138,
+        "B": 126,
+        "C": 132,
+        "D": 104
+      },
+      "pred_distribution": {
+        "A": 140,
+        "B": 126,
+        "C": 130,
+        "D": 104
+      },
+      "selected_lambda": 0.1
+    },
+    {
+      "run_id": "run02",
+      "tag": "qwen_obqa",
+      "status": "verified",
+      "source_sha256": "c800d53d101f0f729f719db302c431046dda365ca7bc880090a678dfc6eb54b5",
+      "n": 500,
+      "correct": 459,
+      "accuracy": 91.8,
+      "f1_weighted": 91.91770540227428,
+      "f1_macro": 91.66450270298408,
+      "confusion_matrix": [
+        [
+          125,
+          5,
+          1,
+          7
+        ],
+        [
+          3,
+          113,
+          1,
+          9
+        ],
+        [
+          2,
+          0,
+          122,
+          8
+        ],
+        [
+          3,
+          2,
+          0,
+          99
+        ]
+      ],
+      "gold_distribution": {
+        "A": 138,
+        "B": 126,
+        "C": 132,
+        "D": 104
+      },
+      "pred_distribution": {
+        "A": 133,
+        "B": 120,
+        "C": 124,
+        "D": 123
+      },
+      "selected_lambda": 1.0
+    },
+    {
+      "run_id": "run02",
+      "tag": "llama_arc",
+      "status": "verified",
+      "source_sha256": "4a720aa7e4c3199d35afae7ee51c37137e2d2772793566caa00e9b5889e7cb62",
+      "n": 500,
+      "correct": 412,
+      "accuracy": 82.4,
+      "f1_weighted": 82.38587398463795,
+      "f1_macro": 82.43675960497588,
+      "confusion_matrix": [
+        [
+          102,
+          7,
+          4,
+          2
+        ],
+        [
+          12,
+          107,
+          4,
+          7
+        ],
+        [
+          6,
+          7,
+          104,
+          9
+        ],
+        [
+          9,
+          14,
+          7,
+          99
+        ]
+      ],
+      "gold_distribution": {
+        "A": 115,
+        "B": 130,
+        "C": 126,
+        "D": 129
+      },
+      "pred_distribution": {
+        "A": 129,
+        "B": 135,
+        "C": 119,
+        "D": 117
+      },
+      "selected_lambda": 0.5
+    },
+    {
+      "run_id": "run02",
+      "tag": "qwen_arc",
+      "status": "verified",
+      "source_sha256": "8b147852851232b774a2a2012febcf7a6ce90bdd37162cdfcc07700ef7eed56f",
+      "n": 500,
+      "correct": 440,
+      "accuracy": 88.0,
+      "f1_weighted": 87.99372426402344,
+      "f1_macro": 88.08819326845413,
+      "confusion_matrix": [
+        [
+          105,
+          5,
+          1,
+          4
+        ],
+        [
+          6,
+          112,
+          3,
+          9
+        ],
+        [
+          1,
+          5,
+          115,
+          5
+        ],
+        [
+          5,
+          10,
+          6,
+          108
+        ]
+      ],
+      "gold_distribution": {
+        "A": 115,
+        "B": 130,
+        "C": 126,
+        "D": 129
+      },
+      "pred_distribution": {
+        "A": 117,
+        "B": 132,
+        "C": 125,
+        "D": 126
+      },
+      "selected_lambda": 0.5
+    }
+  ],
+  "test_predictions": 4000,
+  "scope": "both TopicK rounds; no new evaluation"
+}

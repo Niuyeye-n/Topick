@@ -1,0 +1,100 @@
+{
+  "upstream_commit": "0d5d0ba727d7cd072f8dc328ceaaee9ee949d440",
+  "upstream_url": "https://github.com/WonbinKweon/TopicK_EMNLP2025",
+  "upstream_selector_sha256": "e14aaa2a739aaadac7a33ada34f04fafff4d144d572293784905a002c66e2a49",
+  "executed_source": [
+    {
+      "path": "snapshots/run01/code/annotate_train.py",
+      "sha256": "9dedf9e4a5a7c2b9c44a7dfc3e0aabc0f4a2dbaff29d611fcef18ae91f27c7d5",
+      "role": "exact_executed_source"
+    },
+    {
+      "path": "snapshots/run01/code/eval_common.py",
+      "sha256": "44d7ba656ae7c8d768dc2a1742f2ede9e8e180aa0e02baeac7d42aceeabdcbbe",
+      "role": "exact_executed_source"
+    },
+    {
+      "path": "snapshots/run01/code/evaluate.py",
+      "sha256": "6ef66bf3c89b9f7577c62ecffb1bb7a16d52721abd075b79e7ef20f207192d04",
+      "role": "exact_executed_source"
+    },
+    {
+      "path": "snapshots/run01/code/pipeline.py",
+      "sha256": "2dbfdf8b2cc943448861cadc87937eb76bbd6130a6175e28837f6cafd0bdbc26",
+      "role": "exact_executed_source"
+    },
+    {
+      "path": "snapshots/run01/code/prepare.py",
+      "sha256": "32a3b826e331ad9287b25925c2f34efd166748110891ca5c407b05f9733d5059",
+      "role": "exact_executed_source"
+    },
+    {
+      "path": "snapshots/run01/code/reader.py",
+      "sha256": "ae4b28810ac97029ba26df38f8b97a5495ac6f1e9c7501902db52323d926e893",
+      "role": "exact_executed_source"
+    },
+    {
+      "path": "snapshots/run01/code/runtime.py",
+      "sha256": "a00a25006b57bda3f40cc4e5b7f118ce820257d7501ef042a1def21d101bebf1",
+      "role": "exact_executed_source"
+    },
+    {
+      "path": "snapshots/run01/code/topic_core.py",
+      "sha256": "d300bda7d5db592e779ffeb57718a696ca5ea50db7214f6ee1e1ae0f9023a124",
+      "role": "exact_executed_source"
+    },
+    {
+      "path": "snapshots/run02/code/annotate_train.py",
+      "sha256": "9dedf9e4a5a7c2b9c44a7dfc3e0aabc0f4a2dbaff29d611fcef18ae91f27c7d5",
+      "role": "exact_executed_source"
+    },
+    {
+      "path": "snapshots/run02/code/eval_common.py",
+      "sha256": "44d7ba656ae7c8d768dc2a1742f2ede9e8e180aa0e02baeac7d42aceeabdcbbe",
+      "role": "exact_executed_source"
+    },
+    {
+      "path": "snapshots/run02/code/evaluate.py",
+      "sha256": "6ef66bf3c89b9f7577c62ecffb1bb7a16d52721abd075b79e7ef20f207192d04",
+      "role": "exact_executed_source"
+    },
+    {
+      "path": "snapshots/run02/code/pipeline.py",
+      "sha256": "292e32135dcfe0e6876b49771a46b98c7137a281ebc36f6a255da0ad391cf1ec",
+      "role": "exact_executed_source"
+    },
+    {
+      "path": "snapshots/run02/code/prepare.py",
+      "sha256": "32a3b826e331ad9287b25925c2f34efd166748110891ca5c407b05f9733d5059",
+      "role": "exact_executed_source"
+    },
+    {
+      "path": "snapshots/run02/code/reader.py",
+      "sha256": "ae4b28810ac97029ba26df38f8b97a5495ac6f1e9c7501902db52323d926e893",
+      "role": "exact_executed_source"
+    },
+    {
+      "path": "snapshots/run02/code/runtime.py",
+      "sha256": "a00a25006b57bda3f40cc4e5b7f118ce820257d7501ef042a1def21d101bebf1",
+      "role": "exact_executed_source"
+    },
+    {
+      "path": "snapshots/run02/code/topic_core.py",
+      "sha256": "d300bda7d5db592e779ffeb57718a696ca5ea50db7214f6ee1e1ae0f9023a124",
+      "role": "exact_executed_source"
+    },
+    {
+      "path": "snapshots/run02/code/train_repair.py",
+      "sha256": "be70c18654ab9eeba1d573f7423afa3ba394c07df74d9382cb4ff5f788c0b5d3",
+      "role": "exact_executed_source"
+    }
+  ],
+  "portable_changes": [
+    "configurable run, assets and model paths",
+    "HF encoder download instead of machine-specific mirror bootstrap",
+    "fresh-run orchestration; same run02 training/evaluation logic"
+  ],
+  "no_original_coopes_code": true,
+  "encoder_revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+  "encoder_weight_sha256": "78c0197b6159d92658e319bc1d72e4c73a9a03dd03815e70e555c5ef05615658"
+}

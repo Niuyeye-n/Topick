@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+*.pem
+*.key
+*.pt
+*.bin
+*.safetensors
+*.parquet
+*.arrow
+*.npy
+*.pickle
+runs/
+assets/
+*.zip

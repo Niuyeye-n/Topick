@@ -1,0 +1,14 @@
+{
+  "workspace": "C:/Users/33792/Desktop/论文/Topic Coverage-based Demonstration Retrieval for In-Context Learning",
+  "official_train_parquet": "experiment/topick_run01/staged_assets/{arc_c,openbookqa}_official_train.parquet",
+  "training_rows_split": "experiment/topick_run02/training/<task>/{rows,split,manifest}.json",
+  "training_supervision": "experiment/topick_run02/training/<task>/{annotations.jsonl,soft_targets.npy,topics.json}",
+  "frozen_eval": "experiment/topick_run02/<task>_{pool,dev,queries,gold}.json",
+  "remote_run01": "/root/autodl-tmp/baseline_runs/topick/20261116_run01",
+  "remote_run02": "/root/autodl-tmp/baseline_runs/topick/20261116_run02",
+  "official_sources": {
+    "arc_c": "https://huggingface.co/datasets/allenai/ai2_arc",
+    "openbookqa": "https://huggingface.co/datasets/allenai/openbookqa"
+  },
+  "packaging": "Raw training texts, embeddings, soft-target matrices, checkpoints and Reader weights are not included. IDs and hashes are provided. Annotation raw responses are recorded outputs, not a prepared training dataset."
+}
